@@ -1,0 +1,5 @@
+Exercício 01 - Lista 12
+
+Após a execução, a variável "a" passará a valer 2, enquanto a variável "b"
+passará a valer 5. Com isso, será printado na tela os valores 2 e 5, nesta 
+ordem.
