@@ -20,6 +20,5 @@ int main()
 
     scanf("%lf", &f);
 
-
     return 0;
 }
