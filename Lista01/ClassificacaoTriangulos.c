@@ -32,8 +32,5 @@ int main()
             printf("Triangulo escaleno");
     }
 
-
-
-
     return 0;
 }

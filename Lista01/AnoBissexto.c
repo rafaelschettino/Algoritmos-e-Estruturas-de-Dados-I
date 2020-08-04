@@ -4,19 +4,19 @@
 
 
 int main(){
-    int a;
+    int ano;
     printf("Calculo Ano Bissexto\n");
     printf("Informe o ano\n");
-    scanf("%d", &a);
+    scanf("%d", &ano);
      
-    if (a % 4 != 0) {
+    if (ano % 4 != 0) {
         printf("Ano nao bissexto\n");
-    }else if (a % 4 == 0 && a % 100 != 0){
+    }else if (ano % 4 == 0 && ano % 100 != 0){
         printf("Ano bissexto\n");
-    }else if (a % 4 == 0 && a % 100 == 0 && a % 400 != 0) {
-            printf("Ano nao bissexto\n");
-    }else if (a % 4 == 0 && a % 100 == 0 && a % 400 == 0){
-            printf("Ano bissexto\n");
+    }else if (ano % 4 == 0 && ano % 100 == 0 && ano % 400 != 0) {
+        printf("Ano nao bissexto\n");
+    }else if (ano % 4 == 0 && ano % 100 == 0 && ano % 400 == 0){
+        printf("Ano bissexto\n");
     }
 
     return 0;

@@ -18,7 +18,5 @@ int main()
     c = a / n * (f - b);
     printf("A temperatura em Celsius é:%lf\n", c);
 
-    scanf("%lf", &f);
-
     return 0;
 }
