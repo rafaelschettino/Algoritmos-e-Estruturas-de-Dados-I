@@ -9,7 +9,7 @@ int main()
 {
     float arranjo[] = {3, 5, 7, 9, 11};
     trocaPrimUlti(arranjo);
-    printf("\Apos a troca...");
+    printf("\nApos a troca...");
     printf("\nPrimeiro valor = %f", arranjo[0]);
     printf("\nUltimo valor = %f", arranjo[max - 1]);
 }//fim main()
