@@ -5,18 +5,18 @@
 int main()
 {
     printf("Conversao de Farenheit em Celsius\n");
-    double f;
+    double f;   //Temperatura em Farenheit
     double a;
     double n;
     double b;
-    double c;
+    double c;   //Temperatura em Celsius
     printf("Digite a temperatura em Farenheit\n");
     scanf("%lf", &f);
     a = 5;
     n = 9;
     b = 32;
     c = a / n * (f - b);
-    printf("A temperatura em Celsius é:%lf\n", c);
+    printf("A temperatura em Celsius Ã©:%lf\n", c);
 
     return 0;
 }
