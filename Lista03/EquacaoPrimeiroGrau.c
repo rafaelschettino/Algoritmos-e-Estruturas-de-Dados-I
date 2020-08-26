@@ -4,10 +4,13 @@
 
 int main()
 {
-    float a;
-    float b;
+    float a;    //Coeficiente angular
+    float b;    //Coeficiente linear
     float x;
-
+    
+    /**
+    y = ax + b
+    */
     printf("Resolucao de uma equacao de primeiro grau\n");
     printf("Determine o valor de a:\n");
     scanf("%f", &a);
