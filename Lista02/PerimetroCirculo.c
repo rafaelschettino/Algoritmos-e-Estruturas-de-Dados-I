@@ -3,19 +3,16 @@
 
 int main()
 {
-    float r;
+    float raio;
     float p;
-    float a;
     p = 3.14;
     printf("\t \t \t Calcular o perimetro de um circulo\n");
     printf("\t \t \t Obs:Foi considerado pi igual a 3.14\n");
     printf("Insira o valor do raio do circulo\n");
-    scanf("%f", &r);
+    scanf("%f", &raio);
 
-    float perimetro = 2 * r * p;
+    float perimetro = 2 * raio * p;
     printf("O perimetro desse circulo vale:%f", perimetro);
-
-    scanf("%f", &a);
 
     return 0;
 }
