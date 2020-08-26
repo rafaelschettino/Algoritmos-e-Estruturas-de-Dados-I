@@ -9,7 +9,7 @@ int main()
     float x;
     
     /**
-    y = ax + b
+    * y = ax + b
     */
     printf("Resolucao de uma equacao de primeiro grau\n");
     printf("Determine o valor de a:\n");
