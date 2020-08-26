@@ -5,12 +5,12 @@
 int main()
 {
     printf("\t \t \t Descobrir o valor da hipotenusa\n");
-    double a;
-    double b;
-    double c;
-    double a1;
-    double b1;
-    double c1;
+    double a;   //Primeiro cateto
+    double b;   //Segundo cateto
+    double c;   //Hipotenusa
+    double a1;  //a^2
+    double b1;  //b^2
+    double c1;  //a^2 + b^2
     
     printf("Digite o valor do primeiro cateto:\n");
     scanf("%lf",&a);
