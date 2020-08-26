@@ -5,7 +5,7 @@ int main()
 {
     float num1;
     float num2;
-    float r;
+    float resultado;
     char op[15];
 
     printf("Calculadora\n");
@@ -18,17 +18,17 @@ int main()
     scanf("%s", op);
 
     if(op[0] == 'A' || op[0] == 'a'){
-        r = num1 + num2;
-        printf("O resultado = %f", r);
+        resultado = num1 + num2;
+        printf("O resultado = %f", resultado);
     }else if(op[0] == 'S' || op[0] == 's'){
-        r = num1 - num2;
-        printf("O resultado = %f", r);
+        resultado = num1 - num2;
+        printf("O resultado = %f", resultado);
     }else if(op[0] == 'M' || op[0] == 'm'){
-        r = num1 * num2;
-        printf("O resultado = %f", r);
+        resultado = num1 * num2;
+        printf("O resultado = %f", resultado);
     }else if(op[0] == 'D' || op[0] == 'd'){
-        r = num1 / num2;
-        printf("O resultado = %f", r);
+        resultado = num1 / num2;
+        printf("O resultado = %f", resultado);
     }
 
     return 0;
