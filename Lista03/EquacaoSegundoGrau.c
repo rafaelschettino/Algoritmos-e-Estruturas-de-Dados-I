@@ -4,13 +4,18 @@
 
 int main()
 {
-    float a;
-    float b;
-    float c;
+    float a;    //Coeficiente de x^2
+    float b;    //Coeficiente de x
+    float c;    //Termo independente
     float delta;
+    //Raizes da equacao
     float x1;
     float x2;
 
+    /*
+    *   y = ax^2 + bx + c
+    */
+    
     printf("Resolucao de uma equacao de segundo grau\n");
     printf("Determine o valor de a:\n");
     scanf("%f", &a);
