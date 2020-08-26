@@ -4,10 +4,10 @@
 
 int main()
 {
-    printf("Descobrir o valor da hipotenuza\n");
-    double a;
-    double b;
-    double c;
+    printf("Descobrir o valor da hipotenusa\n");
+    double a;   //Primeiro cateto
+    double b;   //Segundo cateto
+    double c;   //Valor da Hipotenusa
     double a1;
     double b1;
     double c1;
@@ -19,7 +19,7 @@ int main()
     b1 = pow(b,2);
     c1 = a1 + b1;
     c= sqrt(c1);
-    printf("O valor da hipotenusa é:%lf\n",c);
+    printf("O valor da hipotenusa Ã©:%lf\n",c);
 
     return 0;
 }
