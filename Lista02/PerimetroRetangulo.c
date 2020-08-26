@@ -3,19 +3,17 @@
 
 int main()
 {
-    float b;
-    float h;
-    float c;
+    float base;
+    float h;    //Altura do retangulo
+    
     printf("\t \t \t Calculo do perimetro de um retangulo\n");
     printf("Insira a altura do retangulo\n");
     scanf("%f", &h);
     printf("Insira a base do retangulo\n");
-    scanf("%f", &b);
+    scanf("%f", &base);
 
-    float p = 2 * b + 2 * h;
-    printf("O perimetro do retangulo vale: %f", p);
-
-    scanf("%f", &c);
+    float perimetro = 2 * base + 2 * h;
+    printf("O perimetro do retangulo vale: %f", perimetro);
 
     return 0;
 }
