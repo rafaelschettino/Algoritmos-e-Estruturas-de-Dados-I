@@ -20,7 +20,7 @@ int main()
 
     /**
     *   d = sqrt( (x2 - x1)^2 + (y2 - y1)^2 )
-    /*
+    */
     
     printf("Calculo da distancia entre dois pontos de uma reta\n");
     printf("Determine o valor de X2:\n");
