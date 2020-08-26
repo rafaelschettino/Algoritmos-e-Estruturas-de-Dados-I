@@ -3,17 +3,16 @@
 
 int main()
 {
-    float h;
-    float a;
+    float h;    //Altura
+    float aux;    //Variavel auxiliar
     float peso;
-    float z;
+    
     printf("\t \t \t Calculo peso ideal feminino\n");
     printf("Digite a altura\n");
     scanf("%f", &h);
-    a = 62.1 * h;
-    peso = a - 44.7;
+    aux = 62.1 * h;
+    peso = aux - 44.7;
     printf("O peso ideal para essa pessoa e:%f", peso);
 
-    scanf("%f", &z);
     return 0;
 }
