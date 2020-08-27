@@ -4,29 +4,28 @@
 int main()
 {
     char resp;
-    int  a;
+    int  ano;
     do{
-        printf("Calculo de um ano bissesto\n");
+        printf("Calculo de um ano bissexto\n");
         printf("Digite S para comecar ou N para sair\n");
         scanf("\n%c", &resp);
         if(resp == 'N' || resp == 'n'){
             printf("\nPrograma encerrado");
-            break;
-        }
+        }//fim if
         if(resp == 'S' || resp == 's'){
             printf("Informe o ano\n");
-            scanf("%d", &a);
-            if (a % 4 != 0) {
+            scanf("%d", &ano);
+            if (ano % 4 != 0) {
                 printf("Ano nao bissexto\n");
-            }else if (a % 4 == 0 && a % 100 != 0){
+            }else if (ano % 4 == 0 && ano % 100 != 0){
                 printf("Ano bissexto\n");
-            }else if (a % 4 == 0 && a % 100 == 0 && a % 400 != 0) {
+            }else if (ano % 4 == 0 && ano % 100 == 0 && ano % 400 != 0) {
                 printf("Ano nao bissexto\n");
-    	    }else if (a % 4 == 0 && a % 100 == 0 && a % 400 == 0){
+    	    }else if (ano % 4 == 0 && ano % 100 == 0 && ano % 400 == 0){
                 printf("Ano bissexto\n");
     	    }//fim if
-	}//fim if
-    }while(resp == 'S' || resp == 's' || resp == 'N' || resp == 'n');
+	    }//fim if
+    }while(resp == 'S' || resp == 's');
    
     return 0;
 }
