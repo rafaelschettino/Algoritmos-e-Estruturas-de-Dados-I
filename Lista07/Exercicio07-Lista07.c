@@ -39,7 +39,6 @@ int main()
         }
         if(idade == 0){
             printf("\nFinal da leitura!\n");
-            break;
         }
         c++;
     }while(idade != flag);
