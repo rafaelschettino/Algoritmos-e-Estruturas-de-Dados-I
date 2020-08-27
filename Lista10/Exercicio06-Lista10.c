@@ -47,6 +47,6 @@ void escreva(bool p)
         printf("\nEsse numero e PAR!");
     }//fim if
     else if(p == false){
-            printf("\nEsse numero e IMPAR!");
+        printf("\nEsse numero e IMPAR!");
     }//fim else if
 }//fim escreva
