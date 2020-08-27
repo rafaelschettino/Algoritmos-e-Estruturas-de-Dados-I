@@ -38,10 +38,3 @@ float maior(float a, float b)
         m = b;
     return m;
 }
-
-
-
-
-
-
-
