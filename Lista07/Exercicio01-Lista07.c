@@ -7,13 +7,15 @@ int main()
     double h = 0;
     double denominador = 100;
     int n;
+    
     printf("Determine o numero de termos\n");
     scanf("%d", &n);
+    
     for(i = 0; i < n; i++){
         h = h + (1 / (double)denominador);
         denominador = denominador - 3;
-
-    }
+    }//fim for i
+    
     printf("\nA soma desses termos vale: %lf", h);
     return 0;
 }
