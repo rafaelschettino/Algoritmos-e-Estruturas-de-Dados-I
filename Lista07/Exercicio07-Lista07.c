@@ -16,7 +16,7 @@ int main()
         scanf("\n%d", &idade);
         if(idade < 1 || idade > 100){
             printf("\nIdade invalida!Tente novamente\n");
-        }
+        }//fim if
     }while(idade < 1 || idade > 100);
 
     mvelho = idade;
@@ -24,22 +24,22 @@ int main()
     c = 1;
     if(idade >= 18){
         maior = 1;
-    }
+    }//fim if
 
     do{
         scanf("%d", &idade);
         if(idade > mvelho){
             mvelho = idade;
-        }
+        }//fim if
         if(idade < mnovo && idade != 0){
             mnovo = idade;
-        }
+        }//fim if
         if(idade >= 18){
             maior++;
-        }
+        }//fim if
         if(idade == 0){
             printf("\nFinal da leitura!\n");
-        }
+        }//fim if
         c++;
     }while(idade != flag);
 
